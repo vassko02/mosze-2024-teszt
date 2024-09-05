@@ -32,6 +32,6 @@ int main()
     std::cout << "Atlag: " << atlag << std::endl;
     
     delete[] b; // Felszabadítjuk a dinamikusan lefoglalt memóriát
-    
+    std::cout << "Hello World!" << std::endl;
     return 0;
 }
